@@ -1,1 +1,6 @@
 .DS_Store
+/.idea
+dao/__pycache__
+helpers/__pycache__
+views/__pycache__
+__pycache__
