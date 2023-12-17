@@ -13,5 +13,5 @@ def director_dao_fixture():
     director_dao.get_all = MagicMock(return_value=[director, another_director])
     director_dao.create = MagicMock(return_value=Director(id=2))
     director_dao.delete = MagicMock(return_value='Deleted')
-    director_dao.update = MagicMock(return_value='Created')
+    director_dao.update = MagicMock(return_value='Updated')
     return director_dao
